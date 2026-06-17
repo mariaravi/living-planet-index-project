@@ -1,0 +1,37 @@
+Class,Region,High_Risk_Share,All_Populations,High_Risk_Populations
+Amphibia,Asia,0.7857142857142857,28,22
+Actinopteri,International Waters,0.46601941747572817,103,48
+Amphibia,Latin America and Caribbean,0.46551724137931033,58,27
+Elasmobranchii,Africa,0.42424242424242425,33,14
+Aves,Oceania,0.4084239599516658,5793,2366
+Actinopteri,Asia,0.4020100502512563,199,80
+Mammalia,Africa,0.37900874635568516,686,260
+Amphibia,Europe,0.36363636363636365,22,8
+Mammalia,Latin America and Caribbean,0.3541666666666667,96,34
+Aves,Africa,0.3343701399688958,643,215
+Mammalia,Oceania,0.3333333333333333,744,248
+Aves,Asia,0.3333333333333333,399,133
+Reptilia,Africa,0.3333333333333333,27,9
+Reptilia,Asia,0.32786885245901637,61,20
+Reptilia,Latin America and Caribbean,0.29850746268656714,67,20
+Amphibia,North America,0.2911392405063291,79,23
+Reptilia,Europe,0.2857142857142857,49,14
+Elasmobranchii,International Waters,0.2826086956521739,46,13
+Actinopteri,Europe,0.2802690582959641,446,125
+Aves,Latin America and Caribbean,0.2795031055900621,483,135
+Reptilia,North America,0.27710843373493976,83,23
+Actinopteri,Oceania,0.2679425837320574,209,56
+Reptilia,Oceania,0.2441860465116279,86,21
+Mammalia,Asia,0.24,275,66
+Actinopteri,Africa,0.23369565217391305,184,43
+Mammalia,North America,0.23146067415730337,445,103
+Actinopteri,North America,0.2279475982532751,2290,522
+Elasmobranchii,Oceania,0.2222222222222222,27,6
+Aves,Antarctic,0.21666666666666667,180,39
+Aves,Europe,0.21511627906976744,2408,518
+Aves,North America,0.1980544747081712,2570,509
+Elasmobranchii,North America,0.18828451882845187,239,45
+Elasmobranchii,Latin America and Caribbean,0.18181818181818182,22,4
+Elasmobranchii,Europe,0.17391304347826086,23,4
+Actinopteri,Latin America and Caribbean,0.13655761024182078,1406,192
+Mammalia,Europe,0.11908177905308465,697,83

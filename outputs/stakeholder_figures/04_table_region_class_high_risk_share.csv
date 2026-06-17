@@ -1,0 +1,93 @@
+Region_Label,Class_Label,Analyzed_Populations,High_Risk_Records,High_Risk_Share
+Africa,"Actinopteri
+(ray-finned fishes)",184,43,0.23369565217391305
+Africa,"Amphibia
+(amphibians)",3,1,
+Africa,"Aves
+(birds)",643,215,0.3343701399688958
+Africa,"Elasmobranchii
+(sharks and rays)",33,14,
+Africa,"Mammalia
+(mammals)",686,260,0.37900874635568516
+Africa,"Reptilia
+(reptiles)",27,9,
+Antarctic,"Actinopteri
+(ray-finned fishes)",10,8,
+Antarctic,"Aves
+(birds)",180,39,0.21666666666666667
+Antarctic,"Elasmobranchii
+(sharks and rays)",3,0,
+Antarctic,"Mammalia
+(mammals)",9,0,
+Asia,"Actinopteri
+(ray-finned fishes)",199,80,0.4020100502512563
+Asia,"Amphibia
+(amphibians)",28,22,
+Asia,"Aves
+(birds)",399,133,0.3333333333333333
+Asia,"Elasmobranchii
+(sharks and rays)",4,1,
+Asia,"Mammalia
+(mammals)",275,66,0.24
+Asia,"Reptilia
+(reptiles)",61,20,0.32786885245901637
+Europe,"Actinopteri
+(ray-finned fishes)",446,125,0.2802690582959641
+Europe,"Amphibia
+(amphibians)",22,8,
+Europe,"Aves
+(birds)",2408,518,0.21511627906976744
+Europe,"Elasmobranchii
+(sharks and rays)",23,4,
+Europe,"Mammalia
+(mammals)",697,83,0.11908177905308465
+Europe,"Reptilia
+(reptiles)",49,14,
+International Waters,"Actinopteri
+(ray-finned fishes)",103,48,0.46601941747572817
+International Waters,"Elasmobranchii
+(sharks and rays)",46,13,
+International Waters,"Mammalia
+(mammals)",5,2,
+Latin America and Caribbean,"Actinopteri
+(ray-finned fishes)",1406,192,0.13655761024182078
+Latin America and Caribbean,"Amphibia
+(amphibians)",58,27,0.46551724137931033
+Latin America and Caribbean,"Aves
+(birds)",483,135,0.2795031055900621
+Latin America and Caribbean,"Elasmobranchii
+(sharks and rays)",22,4,
+Latin America and Caribbean,"Mammalia
+(mammals)",96,34,0.3541666666666667
+Latin America and Caribbean,"Reptilia
+(reptiles)",67,20,0.29850746268656714
+North America,"Actinopteri
+(ray-finned fishes)",2290,522,0.2279475982532751
+North America,"Amphibia
+(amphibians)",79,23,0.2911392405063291
+North America,"Aves
+(birds)",2570,509,0.1980544747081712
+North America,"Elasmobranchii
+(sharks and rays)",239,45,0.18828451882845187
+North America,"Mammalia
+(mammals)",445,103,0.23146067415730337
+North America,"Reptilia
+(reptiles)",83,23,0.27710843373493976
+"Oceania
+(Pacific islands)","Actinopteri
+(ray-finned fishes)",209,56,0.2679425837320574
+"Oceania
+(Pacific islands)","Amphibia
+(amphibians)",15,9,
+"Oceania
+(Pacific islands)","Aves
+(birds)",5793,2366,0.4084239599516658
+"Oceania
+(Pacific islands)","Elasmobranchii
+(sharks and rays)",27,6,
+"Oceania
+(Pacific islands)","Mammalia
+(mammals)",744,248,0.3333333333333333
+"Oceania
+(Pacific islands)","Reptilia
+(reptiles)",86,21,0.2441860465116279
