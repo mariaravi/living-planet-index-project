@@ -38,26 +38,54 @@ The analysis demonstrates how population-monitoring data can help identify:
 
 ## Dataset
 
-**Source:** Living Planet Database 2024  
-**Unit of analysis:** monitored vertebrate populations  
-**Main data type:** long-term population time series
+This project uses the publicly available **Living Planet Database (LPD) 2024** provided by the Zoological Society of London (ZSL), one of the world's largest collections of vertebrate population monitoring records.
 
-The dataset includes monitored populations from major vertebrate groups, including birds, mammals, reptiles, amphibians, ray-finned fishes, sharks and rays, and several smaller vertebrate classes.
+### Original dataset
 
-The analysis focuses on populations monitored for at least 10 years to reduce the influence of very short-term fluctuations.
+* Source: Living Planet Database 2024 (Zoological Society of London)
+* Geographic scope: global
+* Taxonomic scope: vertebrate populations
+* Temporal coverage: 1950–2020
+* Observation unit: individual monitored population
+* Total monitored populations: 35,996
+* Total species: 5,177
 
----
+The dataset includes:
 
-## Important data note: monitoring coverage is uneven
+* population abundance time series
+* species information
+* taxonomic classification
+* geographic coordinates
+* geographic regions
+* ecosystem type (terrestrial, freshwater, marine)
+* monitoring metadata
 
-The Living Planet Database does not represent all animal groups equally. Some vertebrate classes contain thousands of monitored population records, while others contain only a small number.
+The database covers major vertebrate groups, including mammals, birds, reptiles, amphibians, bony fishes, sharks and rays, and several smaller vertebrate classes.
 
-This does **not** mean that small groups are unimportant. In some cases, they may represent rare or poorly monitored lineages. However, very small sample sizes can make comparative charts misleading.
+### Processed dataset used in this analysis
 
-For this reason, the project uses two complementary views:
+To analyse long-term population change, the dataset was transformed from wide format (annual abundance values stored in separate year columns) into a population time-series format.
 
-1. **Scientific workflow:** all available classes are retained in the analytical dataset.
-2. **Stakeholder-facing figures:** well-represented groups are shown in the main comparative charts, while underrepresented groups are shown separately as a monitoring-coverage caveat.
+For trend analyses, only populations monitored for at least 10 years were retained in order to reduce the influence of short and potentially unstable monitoring records.
+
+After processing and filtering:
+
+* Number of analysed populations: 21,284
+* Number of species represented: 5,177
+* Number of global regions: 8
+* Number of vertebrate classes analysed: 10
+* Time period analysed: 1950–2020
+
+### Data limitations
+
+Monitoring effort is not evenly distributed across taxa and geographic regions. Some groups, such as birds and bony fishes, are represented by substantially more population records than amphibians, reptiles, or other vertebrate classes.
+
+Similarly, regions differ considerably in monitoring intensity, reflecting differences in research capacity, funding availability, conservation priorities, and long-term ecological monitoring programs.
+
+These differences do not invalidate the dataset, but they should be considered when interpreting global biodiversity patterns and comparing trends across taxonomic groups and regions.
+
+
+
 
 
 ![Monitoring coverage by vertebrate class](outputs/stakeholder_figures/04_01_monitoring_coverage_by_class.png)
@@ -225,14 +253,18 @@ This is not a formal conservation-priority model, but it is a useful exploratory
 
 ## Main conclusion
 
-The analysis shows that vertebrate population decline is not evenly distributed. Risk varies by animal group, region, and the combination of both.
+## Main conclusion
 
-A key methodological lesson is that biodiversity data must be communicated with attention to monitoring coverage. Groups with limited records should not be ignored, but they should be separated from broad comparative claims.
+The analysis shows that vertebrate population decline is unevenly distributed across both geography and animal groups.
 
-This project therefore combines two goals:
+At the regional level, the highest share of high-risk populations appears in International Waters and Oceania / Pacific islands. However, these patterns require different interpretation: International Waters show the highest high-risk share, but with a smaller number of monitored populations, while Oceania combines a very high-risk share with a large monitoring base.
 
-1. **scientific analysis** of long-term population trends;
-2. **clear stakeholder communication** that makes complex biodiversity data understandable without hiding uncertainty.
+At the animal-group level, amphibians show the strongest negative median population trend among the main interpretable vertebrate groups. Sharks and rays also show a negative median trend, while birds, mammals, reptiles, and ray-finned fishes have median trends closer to zero. This does not mean these groups are not at risk; rather, risk becomes clearer when animal group and region are analysed together.
+
+The most pronounced high-risk combinations include amphibians in Asia, birds in Oceania / Pacific islands, ray-finned fishes in Asia, and mammals in Africa. These results suggest that biodiversity decline should not be communicated only through global averages. A more useful conservation message is: risk is concentrated in specific region–group combinations, and these patterns must be interpreted together with monitoring coverage.
+
+A key methodological lesson is that underrepresented groups should not be removed from the analysis, but they should be separated from broad comparative claims. This project therefore combines scientific analysis of long-term population trends with stakeholder-oriented communication that makes biodiversity risk understandable without hiding uncertainty.
+
 
 ---
 
