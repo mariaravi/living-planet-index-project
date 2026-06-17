@@ -63,7 +63,6 @@ For this reason, the project uses two complementary views:
 ![Monitoring coverage by vertebrate class](outputs/stakeholder_figures/04_01_monitoring_coverage_by_class.png)
 
 
-This figure should appear in the README near the dataset description because it explains what the database can and cannot show confidently.
 
 ---
 
@@ -86,9 +85,7 @@ The first notebook explores the structure of the Living Planet Database, includi
 
 Notebook:
 
-```text
-notebooks/00_lpd_initial_exploration.ipynb
-```
+[00_lpd_initial_exploration.ipynb](notebooks/00_lpd_initial_exploration.ipynb)
 
 ### 2. Population trend calculation
 
@@ -96,9 +93,8 @@ The second notebook calculates long-term population trends. Population change is
 
 Notebook:
 
-```text
-notebooks/01_population_trend_calculation.ipynb
-```
+[01_population_trend_calculation.ipynb](notebooks/01_population_trend_calculation.ipynb)
+
 
 ### 3. Risk classification
 
@@ -116,9 +112,7 @@ Populations classified as **Critical decline** or **High decline** are treated a
 
 Notebook:
 
-```text
-notebooks/02_risk_analysis.ipynb
-```
+[02_risk_analysis.ipynb](notebooks/02_risk_analysis.ipynb)
 
 ### 4. Spatial analysis
 
@@ -126,9 +120,7 @@ The spatial notebook maps monitored populations, high-risk populations, regional
 
 Notebook:
 
-```text
-notebooks/03_spatial_analysis.ipynb
-```
+[03_spatial_analysis.ipynb](notebooks/03_spatial_analysis.ipynb)
 
 ### 5. Stakeholder-readable figures
 
@@ -136,9 +128,7 @@ The final notebook creates presentation-ready figures with readable labels for a
 
 Notebook:
 
-```text
-notebooks/04_stakeholder_readable_figures.ipynb
-```
+[04_stakeholder_readable_figures.ipynb](notebooks/04_stakeholder_readable_figures.ipynb)
 
 ---
 
@@ -148,31 +138,24 @@ notebooks/04_stakeholder_readable_figures.ipynb
 
 Well-represented vertebrate classes show different population-trend distributions. Some groups have stronger negative trends than others, indicating that biodiversity pressure is not uniform across the tree of life.
 
-📌 **Insert figure here:**
 
-```markdown
+
 ![Population trend distribution by vertebrate class](outputs/stakeholder_figures/04_02_population_trends_well_represented_classes.png)
-```
 
-This figure should be used as the main taxonomic comparison. It excludes very small classes from the main comparison to avoid overinterpreting groups with limited monitoring data.
+
 
 ---
 
 ### 2. Underrepresented groups should not be ignored, but they require careful interpretation
 
-Some vertebrate classes have very few monitored population records in the dataset. These groups remain part of the scientific dataset, but they are shown separately in stakeholder communication.
+Some vertebrate classes have very few monitored population records in the dataset. These groups are retained in the analysis but separated from main comparative charts because small sample sizes can create misleading visual patterns.
 
 This distinction matters because a small number of population records can indicate either limited monitoring coverage or genuinely rare lineages. In both cases, the correct interpretation is caution rather than deletion.
 
-📌 **Insert figure here:**
 
-```markdown
 ![Underrepresented vertebrate classes](outputs/stakeholder_figures/04_03_underrepresented_vertebrate_classes.png)
-```
 
-Suggested README caption:
 
-> These groups are retained in the analysis but separated from main comparative charts because small sample sizes can create misleading visual patterns.
 
 ---
 
@@ -180,11 +163,9 @@ Suggested README caption:
 
 Risk classification shows that many monitored populations fall into moderate, high, or critical decline categories. This suggests that biodiversity loss is visible not only at the level of individual species, but across many monitored populations.
 
-📌 **Insert figure here:**
 
-```markdown
 ![Risk category distribution](outputs/stakeholder_figures/04_04_risk_category_distribution.png)
-```
+
 
 ---
 
@@ -192,11 +173,9 @@ Risk classification shows that many monitored populations fall into moderate, hi
 
 The share of high-risk populations differs across broad biogeographic regions. This means that conservation priorities cannot be based only on global averages.
 
-📌 **Insert figure here:**
 
-```markdown
 ![High-risk share by region](outputs/stakeholder_figures/04_05_high_risk_share_by_region.png)
-```
+
 
 ---
 
@@ -206,11 +185,9 @@ The strongest patterns appear when region and vertebrate class are examined toge
 
 This type of analysis can support targeted conservation communication: not only “where is biodiversity declining?”, but also “which animal groups are most affected in each region?”
 
-📌 **Insert figure here:**
 
-```markdown
 ![Region and class high-risk heatmap](outputs/stakeholder_figures/04_06_region_class_high_risk_heatmap.png)
-```
+
 
 ---
 
@@ -218,11 +195,9 @@ This type of analysis can support targeted conservation communication: not only 
 
 The map of all monitored populations shows where the Living Planet Database has stronger data coverage. This is important because spatial patterns of risk should be interpreted together with spatial patterns of monitoring effort.
 
-📌 **Insert figure here:**
 
-```markdown
 ![Global monitoring coverage map](outputs/stakeholder_figures/04_07_global_monitoring_coverage_map.png)
-```
+
 
 ---
 
@@ -230,11 +205,9 @@ The map of all monitored populations shows where the Living Planet Database has 
 
 High-risk population records are not evenly distributed across the globe. They appear in spatial clusters, suggesting that some regions may deserve closer conservation attention or more detailed follow-up analysis.
 
-📌 **Insert figure here:**
 
-```markdown
 ![Global high-risk population map](outputs/stakeholder_figures/04_08_global_high_risk_population_map.png)
-```
+
 
 ---
 
@@ -244,11 +217,9 @@ The hotspot grid aggregates population records into broad 10-degree cells. Bubbl
 
 This is not a formal conservation-priority model, but it is a useful exploratory screening tool for communicating where risk and monitoring data overlap.
 
-📌 **Insert figure here:**
 
-```markdown
 ![Exploratory high-risk hotspot grid](outputs/stakeholder_figures/04_09_exploratory_high_risk_hotspot_grid.png)
-```
+
 
 ---
 
@@ -292,6 +263,7 @@ This project therefore combines two goals:
 │   └── 04_stakeholder_readable_figures.ipynb
 │
 ├── outputs
+│   ├── figures
 │   └── stakeholder_figures
 │
 ├── src
@@ -327,4 +299,4 @@ outputs/stakeholder_figures/
 **Mariya Aravina**
 
 Research background: molecular biology, reproductive genetics, animal-focused scientific work  
-Current focus: data analytics, biodiversity data, scientific communication, conservation-oriented analysis
+Current focus: data analytics, project management, scientific communication, translating complex data into actionable insights
