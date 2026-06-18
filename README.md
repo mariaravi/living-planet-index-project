@@ -1,4 +1,4 @@
-# Global Vertebrate Population Declines
+# Living Planet Index: Global Vertebrate Population Trends
 
 ### Identifying high-risk population trends and geographic hotspots using the Living Planet Database
 
