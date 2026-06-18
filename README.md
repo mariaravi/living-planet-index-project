@@ -4,6 +4,11 @@
 
 **Data analysis project | Python | Biodiversity analytics | Stakeholder communication**
 
+This project explores long-term vertebrate population trends using Living Planet Index data.
+
+The goal is to identify biodiversity decline patterns and demonstrate data analysis skills relevant to conservation science and biodiversity risk assessment.
+
+Tools: Python, Pandas, Visualization, GIS (planned).
 ---
 
 ## Project overview
@@ -253,8 +258,6 @@ This is not a formal conservation-priority model, but it is a useful exploratory
 
 ## Main conclusion
 
-## Main conclusion
-
 The analysis shows that vertebrate population decline is unevenly distributed across both geography and animal groups.
 
 At the regional level, the highest share of high-risk populations appears in International Waters and Oceania / Pacific islands. However, these patterns require different interpretation: International Waters show the highest high-risk share, but with a smaller number of monitored populations, while Oceania combines a very high-risk share with a large monitoring base.
@@ -266,6 +269,14 @@ The most pronounced high-risk combinations include amphibians in Asia, birds in 
 A key methodological lesson is that underrepresented groups should not be removed from the analysis, but they should be separated from broad comparative claims. This project therefore combines scientific analysis of long-term population trends with stakeholder-oriented communication that makes biodiversity risk understandable without hiding uncertainty.
 
 
+---
+
+## Future Development
+
+- GIS-based spatial analysis
+- Biodiversity risk mapping
+- Species and regional vulnerability assessment
+- Interactive dashboards
 ---
 
 ## Tools used
